@@ -17,7 +17,7 @@ var Person = class {
        buy(exchange) {
            this.exchanges.push(exchange)
            exchange.buyers.push(this)
-       }
+         }
 }
 
 //list of buyers
@@ -30,7 +30,7 @@ var buyer4 = new Person ('Marcus', 29, 'Germany')
 // create a coin class
 
 var Coin = class {
-    constructor(abbreviation) {
+      constructor(abbreviation) {
         this.abbreviation = abbreviation
         this.buyers = []
         this.exchanges = []
@@ -39,7 +39,7 @@ var Coin = class {
     transaction(exchange) {
         this.exchanges.push(exchange)
         exchange.coins.push(this)
-    }
+      }
 }
 
 // list of coins
@@ -53,11 +53,11 @@ var xmr = new Coin ("Monero")
 // create an exchange class
 
 var Exchange = class{
-    constructor(name) {
+      constructor(name) {
         this.name = name 
         this.buyers=[] 
         this.coins=[] 
-    }
+      }
  }
 
  //list of exchanges
