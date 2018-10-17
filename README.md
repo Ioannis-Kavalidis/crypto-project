@@ -1,6 +1,6 @@
 # crypto-project
 
-This project pertain so far:
+This project contains so far:
 
 i) 3 different classes: person, coin, exchange
 
